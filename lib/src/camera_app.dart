@@ -50,6 +50,7 @@ class CameraController {
         camera_mobile_datas.first,
         camera_package.ResolutionPreset.max,
       );
+      camera_mobile_controller.setFlashMode(camera_package.FlashMode.off);
       is_select_camera = true;
       camera_id = camera_mobile_controller.cameraId;
     }
